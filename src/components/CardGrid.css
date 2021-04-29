@@ -1,0 +1,23 @@
+.CardGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+.title {
+    font-size: 18.5px;
+    line-height: 18px;
+    color: #444444;
+    font-weight: bold;
+}
+
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1350px) {
+    .CardGrid {
+        grid-template-columns: 1fr;
+    }
+}
